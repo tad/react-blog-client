@@ -3,10 +3,11 @@
 ## Instructions
 - run npm install
 - run webpack
+- run grunt
 - run webpack-dev-server
 
 ## TODO:
-Add grunt support so we can auto lint, test, and run
+Come up with a simple design for a barebones blog post
 
 ## Coded using
 - ES6
