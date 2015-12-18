@@ -11,7 +11,7 @@ module.exports = function(grunt) {
       }
     },
     eslint: {
-      target:['./test/*.js']
+      target:['./src/*.js']
     },
     execute: {
       target: {
