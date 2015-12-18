@@ -7,7 +7,7 @@
 - run webpack-dev-server
 
 ## TODO:
-Come up with a simple design for a barebones blog post
+Add sidebar functionality
 
 ## Coded using
 - ES6
