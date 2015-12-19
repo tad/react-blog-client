@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Masthead from './components/Masthead'
-import BlogHeader from './components/header/BlogHeader';
+import Footer from './components/Footer';
+import Container from './components/blog-container/Container'
 
 ReactDOM.render(
   <div id="master">
     <Masthead />
-    <div className="container">
-      <BlogHeader />
-      <div className="col-md-6">
-        <h1>Hello, Bootstrap!</h1>
-      </div>
-    </div>
+    <Container />
+    <Footer />
   </div>,
   document.getElementById('app')
 );
