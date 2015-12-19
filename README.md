@@ -12,6 +12,7 @@ I will move forward with tests and dynamic behavior.
 - run webpack
 - run grunt
 - run webpack-dev-server
+- visit http://localhost:8080 in your browser
 
 ## TODO:
 Allow sidebar to have n number modules
