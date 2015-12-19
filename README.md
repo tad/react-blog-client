@@ -5,7 +5,7 @@ Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
 
 Once I figure out how things will look, and the granularity of my components
-I will move forward with tests and dynamic behavior. 
+I will move forward with tests and dynamic behavior.
 
 ## Instructions
 - run npm install
@@ -14,7 +14,7 @@ I will move forward with tests and dynamic behavior.
 - run webpack-dev-server
 
 ## TODO:
-Add sidebar functionality
+Allow sidebar to have n number modules
 
 ## Coded using
 - ES6
