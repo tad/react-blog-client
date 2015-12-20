@@ -1,6 +1,6 @@
 ## React-based blogging client
 
-## Note:
+## Notes:
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
 
@@ -15,7 +15,8 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
-Allow sidebar to have n number modules
+Add blog content modules
+Add something to simulate external loading of content.
 
 ## Coded using
 - ES6
