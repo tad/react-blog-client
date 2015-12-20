@@ -15,8 +15,8 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
+- Send simulated dynamic data (now in js modules) down to components via state
 - Add blog content modules
-- Add something to simulate external loading of content.
 
 ## Coded using
 - ES6
