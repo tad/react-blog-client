@@ -15,8 +15,8 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
-Add blog content modules
-Add something to simulate external loading of content.
+- Add blog content modules
+- Add something to simulate external loading of content.
 
 ## Coded using
 - ES6
