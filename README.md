@@ -15,8 +15,7 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
-- Create sidebar modules more dynamically. Add unique key to each module
-- Clean up TEMPORARY content files - put in better location
+- Figure out how to decorate class name dynamically - eg. module inset
 - Add PropTypes to components
 
 ## Coded using
