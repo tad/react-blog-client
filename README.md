@@ -15,7 +15,8 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
-- Add blog content modules
+- Clean up TEMPORARY content files - put in better location
+- Add PropTypes to components
 
 ## Coded using
 - ES6
