@@ -5,11 +5,11 @@ import Sidebar from './sidebar/Sidebar';
 import BlogPosts from './post/BlogPosts';
 
 // TEMPORARY IMPORTS TO SIMULATE DYNAMIC CONTENT
-import sidebar1 from './Sidebar/Sidebar1';
-import sidebar2 from './Sidebar/Sidebar2';
-import sidebar3 from './Sidebar/Sidebar3';
-import post1 from './post/Post1';
-import post2 from './post/Post2';
+import sidebar1 from './static/Sidebar1';
+import sidebar2 from './static/Sidebar2';
+import sidebar3 from './static/Sidebar3';
+import post1 from './static/Post1';
+import post2 from './static/Post2';
 
 export default React.createClass({
   getInitialState: function() {
