@@ -15,6 +15,7 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
+- Create sidebar modules more dynamically. Add unique key to each module
 - Clean up TEMPORARY content files - put in better location
 - Add PropTypes to components
 
