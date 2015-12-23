@@ -15,6 +15,8 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
+- Pull out Masthead and Footer content so it can be dynamic
+- Add router support so we can navigate to other pages
 - Add PropTypes to components
 
 ## Coded using
