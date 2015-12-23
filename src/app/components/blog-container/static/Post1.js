@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var post1 = {
+let post1 = {
     title: 'Sample blog post',
     meta: <span>December 21, 2015 by <a href="x">Tad</a></span>,
     content:  <div>
@@ -33,7 +33,7 @@ var post1 = {
                   <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
                 </ol>
                 <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-                
+
               </div>
 };
 

@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var sidebar1 = {
+let sidebar1 = {
   insetModule: true,
   content:  <div>
               <h4>About</h4>

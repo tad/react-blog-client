@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var mastheadContent =  <nav className="blog-nav">
+let mastheadContent =  <nav className="blog-nav">
                 <a className="blog-nav-item active" href="#">Home</a>
                 <a className="blog-nav-item" href="#">Categories</a>
                 <a className="blog-nav-item" href="#">Book Store</a>

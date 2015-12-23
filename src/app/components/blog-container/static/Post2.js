@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var post1 = {
+let post1 = {
     title: 'Another blog post',
     meta: <span>December 23, 2015 by <a href="x">Tad</a></span>,
     content:  <div>

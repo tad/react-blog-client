@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var footer = <p>
+let footer = <p>
               <span>Based on a blog template built for </span>
               <a href="http://getbootstrap.com">Bootstrap</a>
                <span> by </span>
