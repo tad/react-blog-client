@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 export default React.createClass({
   render: function() {
     let sidebars = this.props.sidebars.map(function(sidebar, index) {
-      return <div className="sidebar-module" key={index}>
+      return <div className="sidebar-module" className={sidebar.insetModule? "sidebar-module-inset" : ""} key={index}>
         {sidebar.content}
       </div>
     });
