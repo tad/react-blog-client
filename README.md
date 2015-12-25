@@ -1,6 +1,9 @@
 ## React-based blogging client
 
 ## Notes:
+Christmas Eve Note: It's Christmas Eve. I just wasted an hour due to
+misadventure. Pushing a tiny little change today! Merry Xmas!
+
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
 
