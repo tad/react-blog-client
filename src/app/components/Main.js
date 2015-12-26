@@ -11,10 +11,13 @@ import MastheadContent from './blog-container/static/MastheadContent';
 
 export default React.createClass({
   render: function() {
+    console.log("PONG!!!");
     return(
       <div id="master">
         <Masthead masthead={MastheadContent} />
-        <Container />
+        <div>
+          {this.props.children || <Container /> }
+        </div>
         <Footer footer={FooterContent} />
       </div>
     );

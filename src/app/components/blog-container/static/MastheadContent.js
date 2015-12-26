@@ -7,7 +7,7 @@ let mastheadContent =  <nav className="blog-nav">
                 <a className="blog-nav-item" href="#">Categories</a>
                 <a className="blog-nav-item" href="#">Book Store</a>
                 <a className="blog-nav-item" href="#">Link Repository</a>
-                <a className="blog-nav-item" href="#">About Me</a>
+                <a className="blog-nav-item" href="#/about">About Me</a>
               </nav>;
 
 // Placeholder for now until we begin reading in from external service
