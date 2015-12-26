@@ -1,7 +1,10 @@
 ## React-based blogging client
 
 ## Notes:
-Christmas Day Note: It's Christmas Day. I took today off.
+December 26, 2015 - Added routing to the blog. It's now a single-page app
+(so far). Currently, I've only added a placeholder for the About page, but
+the concept is identical for any other page moving forward. If you grab today's
+commit, click between About Me and Home in the navbar.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
@@ -17,7 +20,12 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
-- Add router support so we can navigate to other pages
+- Begin working in branches for each day's commit and create PR's.
+- Figure out how to get the "carat" pointer thing in the navbar point to other tabs
+- - add active class to the anchor element for above
+- Build in placeholder pages for the other navbar pages
+- Extend navbar to have icon links to github, stackoverflow, etc.
+- Make everything work properly in mobile sizes
 - Add PropTypes to components
 
 ## Coded using
