@@ -17,10 +17,11 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
-- Begin working in branches for each day's commit and create PR's.
+- Figure out what else needs to be done to publish minimally viable blog
+- - Begin working on immutable data store and associated logic with tests
+- Begin working in branches for each day's commit and create PR's
 - Figure out how to get the "carat" pointer thing in the navbar point to other tabs
 - - add active class to the anchor element for above
-- Build in placeholder pages for the other navbar pages
 - Extend navbar to have icon links to github, stackoverflow, etc.
 - Make everything work properly in mobile sizes
 - Add PropTypes to components
