@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 export default React.createClass({
   render: function() {
     return(
-      <h3>About Me Placeholder</h3>
+      <h3>Links Page Placeholder</h3>
     );
   }
 });

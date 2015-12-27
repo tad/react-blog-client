@@ -1,10 +1,7 @@
 ## React-based blogging client
 
 ## Notes:
-December 26, 2015 - Added routing to the blog. It's now a single-page app
-(so far). Currently, I've only added a placeholder for the About page, but
-the concept is identical for any other page moving forward. If you grab today's
-commit, click between About Me and Home in the navbar.
+December 27, 2015 - Added placeholders for the other pages in the Navbar.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
