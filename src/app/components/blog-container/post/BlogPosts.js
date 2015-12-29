@@ -5,6 +5,9 @@ import Meta from './Meta';
 import Content from './Content';
 
 export default React.createClass({
+  propTypes: {
+    blogPosts: React.PropTypes.array.isRequired,    
+  },
   render: function() {
     let blogPosts = this.props.blogPosts.map(function(post, index) {
       return <div className="blog-post" key={index}>
