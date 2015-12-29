@@ -1,7 +1,10 @@
 ## React-based blogging client
 
 ## Notes:
-December 27, 2015 - Added placeholders for the other pages in the Navbar.
+Streak Day 14
+December 28, 2015 - Getting to the point now where I need to catch up on some
+learning in order to continue making good progress. Updates will be smaller
+until my learning catches up.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
