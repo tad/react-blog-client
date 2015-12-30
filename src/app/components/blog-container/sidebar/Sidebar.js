@@ -6,14 +6,15 @@ export default React.createClass({
     sidebars: React.PropTypes.array.isRequired,
   },
   render: function() {
-    let sidebars = this.props.sidebars.map(function(sidebar, index) {
-      return <div className="sidebar-module" className={sidebar.insetModule? "sidebar-module-inset" : ""} key={index}>
-        {sidebar.content}
-      </div>
-    });
+    const { sidebars } = this.props;
     return(
       <div className="col-sm-3 col-sm-offset-1 blog-sidebar">
-        {sidebars}
+        {sidebars.map((sidebar, index) => (
+          <div className="sidebar-module"
+               className={sidebar.insetModule? "sidebar-module-inset" : ""}
+               key={index}>{sidebar.content}
+          </div>
+        ))}
       </div>
     );
   }

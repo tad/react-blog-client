@@ -1,10 +1,8 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 14
-December 28, 2015 - Getting to the point now where I need to catch up on some
-learning in order to continue making good progress. Updates will be smaller
-until my learning catches up.
+Streak Day 15
+December 29, 2015 - Making a pass through code for ES6 cleanup.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.

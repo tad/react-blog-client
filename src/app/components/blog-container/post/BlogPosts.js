@@ -6,19 +6,19 @@ import Content from './Content';
 
 export default React.createClass({
   propTypes: {
-    blogPosts: React.PropTypes.array.isRequired,    
+    blogPosts: React.PropTypes.array.isRequired,
   },
   render: function() {
-    let blogPosts = this.props.blogPosts.map(function(post, index) {
-      return <div className="blog-post" key={index}>
-        <Title title={post.title} />
-        <Meta meta={post.meta} />
-        <Content content={post.content} />
-      </div>
-    });
+    const { blogPosts } = this.props;
     return(
       <div className="col-sm-8 blog-main">
-        {blogPosts}
+        {blogPosts.map((post, index) => (
+          <div className="blog-post" key={index}>
+            <Title title={post.title} />
+            <Meta meta={post.meta} />
+            <Content content={post.content} />
+          </div>
+        ))}
       </div>
     );
   }
