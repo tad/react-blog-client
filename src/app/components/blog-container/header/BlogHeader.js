@@ -7,7 +7,7 @@ export default React.createClass({
   render: function() {
     return(
       <div className="blog-header">
-        <BlogTitle />
+        <BlogTitle blogTitle={this.props.blogTitle} />
         <BlogDescription />
       </div>
     );
