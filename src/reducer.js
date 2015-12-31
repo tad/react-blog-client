@@ -1,4 +1,4 @@
-import {List} from 'immutable'
+import {List} from 'immutable';
 // import action_creators from './action_creators'
 
 // TEMPORARY IMPORTS TO SIMULATE DYNAMIC CONTENT
