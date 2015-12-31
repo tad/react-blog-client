@@ -1,8 +1,10 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 15
-December 29, 2015 - Making a pass through code for ES6 cleanup.
+Streak Day 16
+December 30, 2015 - Added a redux data store and now reading blog title from
+there. Will eventually read all blog state from redux. Will abstract away
+data collection. 
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
