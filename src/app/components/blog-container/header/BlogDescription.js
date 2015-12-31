@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 export default React.createClass({
   render: function() {
     return(
-      <p className="lead blog-description">My React-based Blog.</p>
+      <p className="lead blog-description">{this.props.blogDescription}</p>
     );
   }
 });

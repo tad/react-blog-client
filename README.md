@@ -1,10 +1,11 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 16
-December 30, 2015 - Added a redux data store and now reading blog title from
-there. Will eventually read all blog state from redux. Will abstract away
-data collection. 
+Streak Day 17
+December 31, 2015 - Happy New Year's Eve!
+Moved current, temporary static state of blog from the container component into
+the redux store. Need to continue abstracting out data retrieval so it'll be
+trivial to plug in eventual dynamic implementation.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.

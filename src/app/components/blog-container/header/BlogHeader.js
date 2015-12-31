@@ -8,7 +8,7 @@ export default React.createClass({
     return(
       <div className="blog-header">
         <BlogTitle blogTitle={this.props.blogTitle} />
-        <BlogDescription />
+        <BlogDescription blogDescription={this.props.blogDescription} />
       </div>
     );
   }

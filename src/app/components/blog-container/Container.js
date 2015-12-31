@@ -18,16 +18,12 @@ let store = createStore(myBlog);
 
 export default React.createClass({
   getInitialState: function() {
-    return {
-      sidebars: [sidebar1, sidebar2, sidebar3],
-      blogPosts: [post1, post2],
-      blogTitle: store.getState().blogTitle
-    };
+    return store.getState();
   },
   render: function() {
     return(
       <div className="container">
-        <BlogHeader blogTitle={this.state.blogTitle} />
+        <BlogHeader blogTitle={this.state.blogTitle} blogDescription={this.state.blogDescription} />
         <div className="row">
           <BlogPosts blogPosts={this.state.blogPosts} />
           <Sidebar sidebars={this.state.sidebars} />
