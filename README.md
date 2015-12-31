@@ -21,6 +21,7 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
+- Imports are starting to look REALLY ugly. Need to figure out how to properly fix
 - Figure out what else needs to be done to publish minimally viable blog
 - - Begin working on immutable data store and associated logic with tests
 - Begin working in branches for each day's commit and create PR's

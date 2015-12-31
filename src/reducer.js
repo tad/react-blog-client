@@ -1,4 +1,4 @@
-// import {Map, List} from 'immutable'
+import {List} from 'immutable'
 // import action_creators from './action_creators'
 
 // TEMPORARY IMPORTS TO SIMULATE DYNAMIC CONTENT
@@ -11,8 +11,8 @@ import post2 from './app/components/blog-container/static/Post2';
 const initialState = {
   blogTitle: 'My React Redux Blog',
   blogDescription: 'My React-based Blog',
-  sidebars: [sidebar1, sidebar2, sidebar3],
-  blogPosts: [post1, post2]
+  sidebars: List.of(sidebar1, sidebar2, sidebar3),
+  blogPosts: List.of(post1, post2)
 };
 
 function myBlog(state, action) {
