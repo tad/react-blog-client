@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Masthead from './Masthead'
 import Footer from './Footer';
-import Container from './blog-container/Container'
+import Blog from './blog-container/Blog'
 
 // TEMPORARY IMPORTS TO SIMULATE DYNAMIC CONTENT
 import FooterContent from '../../static/FooterContent';

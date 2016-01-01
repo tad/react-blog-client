@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom';
 import BlogHeader from './header/BlogHeader';
 import Sidebar from './sidebar/Sidebar';
 import BlogPosts from './post/BlogPosts';
+import actionCreators from '../../../action_creators';
+import {connect} from 'react-redux';
 
 import { createStore } from 'redux'
 import myBlog from '../../../reducer'
 
 let store = createStore(myBlog);
 
-export default React.createClass({
+export const Blog = React.createClass({
   getInitialState: function() {
     return store.getState();
   },
@@ -25,3 +27,10 @@ export default React.createClass({
     );
   }
 });
+
+function mapStateToProps(state) {
+  return state;
+}
+
+export const BlogContainer = connect(
+  mapStateToProps, actionCreators)(Blog);

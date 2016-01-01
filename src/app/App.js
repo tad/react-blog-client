@@ -11,7 +11,6 @@ import myBlog from '../reducer'
 
 let store = createStore(myBlog);
 
-
 ReactDOM.render(
   <Provider store={store}>
     <Router>{routes}</Router>

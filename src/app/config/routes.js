@@ -4,12 +4,12 @@ import About from '../../static/About';
 import Categories from '../../static/Categories';
 import Bookstore from '../../static/Bookstore';
 import Links from '../../static/Links';
-import Container from '../components/blog-container/Container';
+import {BlogContainer} from '../components/blog-container/Blog';
 import { Router, Route, IndexRoute } from 'react-router';
 
 const routes = (
                 <Route path='/' component={Main}>
-                  <IndexRoute component={Container} />
+                  <IndexRoute component={BlogContainer} />
                   <Route path='about' component={About} />
                   <Route path='categories' component={Categories} />
                   <Route path='bookstore' component={Bookstore} />
