@@ -2,11 +2,11 @@ import {List} from 'immutable';
 // import action_creators from './action_creators'
 
 // TEMPORARY IMPORTS TO SIMULATE DYNAMIC CONTENT
-import sidebar1 from './app/components/blog-container/static/Sidebar1';
-import sidebar2 from './app/components/blog-container/static/Sidebar2';
-import sidebar3 from './app/components/blog-container/static/Sidebar3';
-import post1 from './app/components/blog-container/static/Post1';
-import post2 from './app/components/blog-container/static/Post2';
+import sidebar1 from './static/Sidebar1';
+import sidebar2 from './static/Sidebar2';
+import sidebar3 from './static/Sidebar3';
+import post1 from './static/Post1';
+import post2 from './static/Post2';
 
 const initialState = {
   blogTitle: 'My React Redux Blog',

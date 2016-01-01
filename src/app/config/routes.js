@@ -1,9 +1,9 @@
 import React from 'react';
 import Main from '../components/Main';
-import About from '../components/blog-container/static/About';
-import Categories from '../components/blog-container/static/Categories';
-import Bookstore from '../components/blog-container/static/Bookstore';
-import Links from '../components/blog-container/static/Links';
+import About from '../../static/About';
+import Categories from '../../static/Categories';
+import Bookstore from '../../static/Bookstore';
+import Links from '../../static/Links';
 import Container from '../components/blog-container/Container';
 import { Router, Route, IndexRoute } from 'react-router';
 

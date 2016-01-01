@@ -5,8 +5,8 @@ import Footer from './Footer';
 import Container from './blog-container/Container'
 
 // TEMPORARY IMPORTS TO SIMULATE DYNAMIC CONTENT
-import FooterContent from './blog-container/static/FooterContent';
-import MastheadContent from './blog-container/static/MastheadContent';
+import FooterContent from '../../static/FooterContent';
+import MastheadContent from '../../static/MastheadContent';
 
 
 export default React.createClass({
