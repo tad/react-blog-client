@@ -18,10 +18,10 @@ export const Blog = React.createClass({
   render: function() {
     return(
       <div className="container">
-        <BlogHeader blogTitle={this.state.blogTitle} blogDescription={this.state.blogDescription} />
+        <BlogHeader blogTitle={this.props.blogTitle} blogDescription={this.props.blogDescription} />
         <div className="row">
-          <BlogPosts blogPosts={this.state.blogPosts} />
-          <Sidebar sidebars={this.state.sidebars} />
+          <BlogPosts blogPosts={this.props.blogPosts} />
+          <Sidebar sidebars={this.props.sidebars} />
         </div>
       </div>
     );

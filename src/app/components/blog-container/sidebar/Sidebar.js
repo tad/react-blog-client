@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 
 export default React.createClass({
   propTypes: {
-    sidebars: React.PropTypes.array.isRequired,
+    // Not sure how this works with immutable - needs research
+    //sidebars: React.PropTypes.array.isRequired,
   },
   render: function() {
     const { sidebars } = this.props;
