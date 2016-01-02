@@ -6,15 +6,7 @@ import BlogPosts from './post/BlogPosts';
 import actionCreators from '../../../action_creators';
 import {connect} from 'react-redux';
 
-import { createStore } from 'redux'
-import myBlog from '../../../reducer'
-
-let store = createStore(myBlog);
-
 export const Blog = React.createClass({
-  getInitialState: function() {
-    return store.getState();
-  },
   render: function() {
     return(
       <div className="container">
