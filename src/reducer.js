@@ -14,7 +14,10 @@ const initialState = {
   blogDescription: 'My React-based Blog',
   sidebars: List.of(sidebar1, sidebar2, sidebar3),
   blogPosts: List.of(post1, post2),
-  aboutContent: <h3>About Me Placeholder</h3>
+  aboutContent: <h3>About Me Placeholder</h3>,
+  categoriesContent: <h3>Categories Placeholder</h3>,
+  bookstoreContent: <h3>Bookstore Placeholder</h3>,
+  linksContent: <h3>Links Placeholder</h3>
 };
 
 function myBlog(state, action) {

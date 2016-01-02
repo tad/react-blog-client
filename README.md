@@ -1,8 +1,8 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 8
-January 1, 2016 - HAPPY NEW YEAR!!!
+Streak Day 19
+January 2, 2016
 I've now wired in a redux store and have pushed all of my static content (I think)
 into my redux store and have started fixing up the react components to get their
 property from the redux state using the react-redux connect function.
@@ -21,6 +21,7 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
+- Finish adding rest of pages to redux.
 - Imports are starting to look REALLY ugly. Need to figure out how to properly fix
 - Figure out what else needs to be done to publish minimally viable blog
 - - Begin working on immutable data store and associated logic with tests
