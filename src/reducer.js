@@ -9,20 +9,24 @@ import sidebar3 from './static/Sidebar3';
 import post1 from './static/Post1';
 import post2 from './static/Post2';
 import aboutContent from './static/AboutContent';
+import categoriesContent from './static/CategoriesContent';
+import bookstoreContent from './static/BookstoreContent';
+import linksContent from './static/LinksContent';
 import footerContent from './static/FooterContent';
 import mastheadContent from './static/MastheadContent';
+import blogMeta from './static/BlogMeta';
 
 const initialState = {
-  blogTitle: 'My React Redux Blog',
-  blogDescription: 'My React-based Blog',
+  blogTitle: blogMeta.blogTitle,
+  blogDescription: blogMeta.blogDescription,
   sidebars: List.of(sidebar1, sidebar2, sidebar3),
   blogPosts: List.of(post1, post2),
   mastheadContent: mastheadContent,
   footerContent: footerContent,
   aboutContent: aboutContent,
-  categoriesContent: <h3>Categories Placeholder</h3>,
-  bookstoreContent: <h3>Bookstore Placeholder</h3>,
-  linksContent: <h3>Links Placeholder</h3>
+  categoriesContent: categoriesContent,
+  bookstoreContent: bookstoreContent,
+  linksContent: linksContent
 };
 
 function myBlog(state, action) {
