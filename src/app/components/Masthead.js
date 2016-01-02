@@ -6,6 +6,7 @@ export default React.createClass({
     masthead: React.PropTypes.object.isRequired
   },
   render: function() {
+    console.log('masthead: ', this.props.masthead);
     return(
       <div className="blog-masthead">
         <div className="container">

@@ -2,23 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Masthead from './Masthead'
 import Footer from './Footer';
-import Blog from './blog-container/Blog'
+import Blog from './blog-container/Blog';
+import {connect} from 'react-redux';
+import actionCreators from '../../action_creators';
 
-// TEMPORARY IMPORTS TO SIMULATE DYNAMIC CONTENT
-import FooterContent from '../../static/FooterContent';
-import MastheadContent from '../../static/MastheadContent';
-
-
-export default React.createClass({
+export const Main = React.createClass({
   render: function() {
     return(
       <div id="master">
-        <Masthead masthead={MastheadContent} />
+        <Masthead masthead={this.props.mastheadContent} />
         <div>
           {this.props.children}
         </div>
-        <Footer footer={FooterContent} />
+        <Footer footer={this.props.footerContent} />
       </div>
     );
   }
 });
+
+function mapStateToProps(state) {
+  return state;
+}
+
+export const MainContainer = connect(
+  mapStateToProps, actionCreators)(Main);
