@@ -22,6 +22,8 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
+- Put list of categories into blogMeta object
+- Load navbar categories dynamically based on blogMeta
 - Push retrieval of initial blog state out of reducer
 - mapStateToProps methods need to be refined.
 - Finish adding rest of pages to redux.
