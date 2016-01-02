@@ -2,10 +2,11 @@
 
 ## Notes:
 Streak Day 19
-January 2, 2016
-I've now wired in a redux store and have pushed all of my static content (I think)
-into my redux store and have started fixing up the react components to get their
-property from the redux state using the react-redux connect function.
+January 2, 2016 - All page content is now being served from my redux reducer.
+Now I need to push their content into static pages like the blog posts. After
+that, I want to set up my blog posts so that I can author them using markup,
+and then I can begin actually publishing while I work towards a proper admin
+interface, not to mention persistence code in my node server.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
