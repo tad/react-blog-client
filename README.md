@@ -1,11 +1,11 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 17
-December 31, 2015 - Happy New Year's Eve!
-Moved current, temporary static state of blog from the container component into
-the redux store. Need to continue abstracting out data retrieval so it'll be
-trivial to plug in eventual dynamic implementation.
+Streak Day 8
+January 1, 2016 - HAPPY NEW YEAR!!!
+I've now wired in a redux store and have pushed all of my static content (I think)
+into my redux store and have started fixing up the react components to get their
+property from the redux state using the react-redux connect function.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
