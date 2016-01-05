@@ -1,13 +1,11 @@
-import {List, fromJS} from 'immutable';
-import React from 'react';
+import {List} from 'immutable';
+//import React from 'react';
 // import action_creators from './action_creators'
 
 // TEMPORARY IMPORTS TO SIMULATE DYNAMIC CONTENT
 import sidebar1 from './static/Sidebar1';
 import sidebar2 from './static/Sidebar2';
 import sidebar3 from './static/Sidebar3';
-import post1 from './static/Post1';
-import post2 from './static/Post2';
 import blogPosts from './static/BlogPosts';
 import aboutContent from './static/AboutContent';
 import categoriesContent from './static/CategoriesContent';
