@@ -1,4 +1,4 @@
-import {List} from 'immutable';
+import {List, fromJS} from 'immutable';
 import React from 'react';
 // import action_creators from './action_creators'
 
@@ -8,6 +8,7 @@ import sidebar2 from './static/Sidebar2';
 import sidebar3 from './static/Sidebar3';
 import post1 from './static/Post1';
 import post2 from './static/Post2';
+import blogPosts from './static/BlogPosts';
 import aboutContent from './static/AboutContent';
 import categoriesContent from './static/CategoriesContent';
 import bookstoreContent from './static/BookstoreContent';
@@ -20,7 +21,7 @@ const initialState = {
   blogTitle: blogMeta.blogTitle,
   blogDescription: blogMeta.blogDescription,
   sidebars: List.of(sidebar1, sidebar2, sidebar3),
-  blogPosts: List.of(post1, post2),
+  blogPosts: blogPosts,
   mastheadContent: mastheadContent,
   footerContent: footerContent,
   aboutContent: aboutContent,

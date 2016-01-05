@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 export default React.createClass({
   propTypes: {
-    title: React.PropTypes.string.isRequired
+    //title: React.PropTypes.string.isRequired
   },
   render: function() {
     return(
