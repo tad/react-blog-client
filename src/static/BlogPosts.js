@@ -9,7 +9,7 @@ let posts = [{
 },
 {
   title: '~~Sample blog post~~',
-  meta: 'December 21, 2015 by [Tad](#)',
+  meta: 'December 27, 2015 by [Tad](#)',
   content: "### My Sample Markdown Blog Post\nHere is another line.\n#### Sub-sub-heading"
 }
 ];
