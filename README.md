@@ -1,12 +1,12 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 19
-January 2, 2016 - All page content is now being served from my redux reducer.
-Now I need to push their content into static pages like the blog posts. After
-that, I want to set up my blog posts so that I can author them using markup,
-and then I can begin actually publishing while I work towards a proper admin
-interface, not to mention persistence code in my node server.
+Streak Day 21
+January 4, 2016 - Blog content is now delivered from a single static file, mimicking
+how it will come back from a persistent data store. In addition, blog content is
+now using MarkDown and converting it on the fly into proper HTML. This will allow
+me to author my blog posts in Markdown. An eventual admin interface will make this
+easy.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
