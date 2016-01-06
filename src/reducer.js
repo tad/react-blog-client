@@ -12,7 +12,6 @@ import categoriesContent from './static/CategoriesContent';
 import bookstoreContent from './static/BookstoreContent';
 import linksContent from './static/LinksContent';
 import footerContent from './static/FooterContent';
-import mastheadContent from './static/MastheadContent';
 import blogMeta from './static/BlogMeta';
 
 const initialState = {
