@@ -20,7 +20,7 @@ const initialState = {
   blogDescription: blogMeta.blogDescription,
   sidebars: List.of(sidebar1, sidebar2, sidebar3),
   blogPosts: blogPosts,
-  mastheadContent: mastheadContent,
+  mastheadContent: blogMeta.mastheadLinks,
   footerContent: footerContent,
   aboutContent: aboutContent,
   categoriesContent: categoriesContent,

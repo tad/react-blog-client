@@ -1,12 +1,8 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 21
-January 4, 2016 - Blog content is now delivered from a single static file, mimicking
-how it will come back from a persistent data store. In addition, blog content is
-now using MarkDown and converting it on the fly into proper HTML. This will allow
-me to author my blog posts in Markdown. An eventual admin interface will make this
-easy.
+Streak Day 22
+January 5, 2016 - 
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.

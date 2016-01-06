@@ -10,7 +10,11 @@ export const Main = React.createClass({
   render: function() {
     return(
       <div id="master">
-        <Masthead masthead={this.props.mastheadContent} />
+        <div className="blog-masthead">
+          <div className="container">
+            <Masthead masthead={this.props.mastheadContent} />
+          </div>
+        </div>
         <div>
           {this.props.children}
         </div>
