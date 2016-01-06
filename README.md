@@ -2,7 +2,8 @@
 
 ## Notes:
 Streak Day 22
-January 5, 2016 - 
+January 5, 2016 - Pushed masthead links into reducer read from blogmeta so that
+they're more dynamic.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
