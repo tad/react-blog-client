@@ -1,9 +1,9 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 22
-January 5, 2016 - Pushed masthead links into reducer read from blogmeta so that
-they're more dynamic.
+Streak Day 23
+January 6, 2016 - Pushed static content further into the Corner of Eventual Persistence.
+Created a repository which will eventually connect to whatever backend I want.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
@@ -19,8 +19,6 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
-- Put list of categories into blogMeta object
-- Load navbar categories dynamically based on blogMeta
 - Push retrieval of initial blog state out of reducer
 - mapStateToProps methods need to be refined.
 - Finish adding rest of pages to redux.
