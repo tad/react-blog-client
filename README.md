@@ -1,9 +1,8 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 23
-January 6, 2016 - Pushed static content further into the Corner of Eventual Persistence.
-Created a repository which will eventually connect to whatever backend I want.
+Streak Day 24
+January 7, 2016 - 
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
@@ -11,7 +10,7 @@ react components and design that I want to move forward with.
 Once I figure out how things will look, and the granularity of my components
 I will move forward with tests and dynamic behavior.
 
-## Instructions
+## Instruction
 - run npm install
 - run webpack
 - run grunt

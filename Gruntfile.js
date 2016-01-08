@@ -7,7 +7,7 @@ module.exports = function(grunt) {
         options: {
           require: 'babel-core/register'
         },
-        src: ['./test/*.js']
+        src: ['./test/**/*.js']
       }
     },
     eslint: {
