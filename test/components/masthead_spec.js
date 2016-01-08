@@ -8,10 +8,6 @@ import {List} from 'immutable';
 const {renderIntoDocument, scryRenderedDOMComponentsWithTag, scryRenderedDOMComponentsWithClass, Simulate} = React.addons.TestUtils;
 
 describe('Masthead', () => {
-  it('does a silly test test', () => {
-    expect(true).to.equal(true);
-  });
-
   it('renders two items in the masthead', () => {
     const mastHeadItems = [
       {

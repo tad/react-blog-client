@@ -2,7 +2,7 @@
 
 ## Notes:
 Streak Day 24
-January 7, 2016 - 
+January 7, 2016 - Wrote tests for Masthead.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
@@ -18,7 +18,7 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
-- Push retrieval of initial blog state out of reducer
+- Push sidebar content into a single static file, like blog posts
 - mapStateToProps methods need to be refined.
 - Finish adding rest of pages to redux.
 - Imports are starting to look REALLY ugly. Need to figure out how to properly fix
