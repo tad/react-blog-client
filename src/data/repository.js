@@ -1,9 +1,7 @@
 import {List} from 'immutable';
 
 // TEMPORARY IMPORTS TO SIMULATE DYNAMIC CONTENT
-import sidebar1 from '../static/Sidebar1';
-import sidebar2 from '../static/Sidebar2';
-import sidebar3 from '../static/Sidebar3';
+import sidebarModules from '../static/SidebarModules';
 import blogPosts from '../static/BlogPosts';
 import aboutContent from '../static/AboutContent';
 import categoriesContent from '../static/CategoriesContent';
@@ -15,7 +13,7 @@ import blogMeta from '../static/BlogMeta';
 const initialState = {
   blogTitle: blogMeta.blogTitle,
   blogDescription: blogMeta.blogDescription,
-  sidebars: List.of(sidebar1, sidebar2, sidebar3),
+  sidebars: sidebarModules,
   blogPosts: blogPosts,
   mastheadContent: blogMeta.mastheadLinks,
   footerContent: footerContent,
