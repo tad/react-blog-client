@@ -1,9 +1,8 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 25
-January 8, 2016 - Refactored how Sidebar modules are loaded in Repository.
-Wrote tests for Sidebar.
+Streak Day 26
+January 9, 2016 - Fixed linting. Renamed react components to have .jxs extensions.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
@@ -19,6 +18,7 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
+- Nav Pages and sidebar contents should be read from markdown, same as blog posts
 - Separate tests out into smaller individual tests
 - Write tests for blogPosts component
 - mapStateToProps methods need to be refined.

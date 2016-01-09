@@ -4,15 +4,15 @@ import marked from 'marked';
 
 export default React.createClass({
   propTypes: {
-    title: React.PropTypes.string.isRequired
+    //content: React.PropTypes.object.isRequired,
   },
   rawMarkup: function() {
-    var rawMarkup = marked(this.props.title.toString(), {sanitize: true});
+    var rawMarkup = marked(this.props.content.toString(), {sanitize: true});
     return { __html: rawMarkup };
   },
   render: function() {
     return(
-      <h2 className="blog-post-title" dangerouslySetInnerHTML={this.rawMarkup()} />        
+      <div dangerouslySetInnerHTML={this.rawMarkup()} />
     );
   }
 });

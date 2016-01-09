@@ -1,5 +1,3 @@
-import {List} from 'immutable';
-
 // TEMPORARY IMPORTS TO SIMULATE DYNAMIC CONTENT
 import sidebarModules from '../static/SidebarModules';
 import blogPosts from '../static/BlogPosts';
@@ -28,7 +26,7 @@ function Repository() {
     getInitialState: function() {
       return initialState;
     }
-  }
+  };
 }
 
 export default Repository;

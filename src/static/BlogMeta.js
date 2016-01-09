@@ -1,6 +1,4 @@
 // TEMPORARY MODULE TO SIMULATE DYNAMIC Content
-import React from 'react';
-import ReactDOM from 'react-dom';
 
 let blogMeta = {
     blogTitle: 'My React Redux Blog',
