@@ -1,8 +1,9 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 24
-January 7, 2016 - Wrote tests for Masthead.
+Streak Day 25
+January 8, 2016 - Refactored how Sidebar modules are loaded in Repository.
+Wrote tests for Sidebar.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
@@ -18,9 +19,9 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
-- Push sidebar content into a single static file, like blog posts
+- Separate tests out into smaller individual tests
+- Write tests for blogPosts component
 - mapStateToProps methods need to be refined.
-- Finish adding rest of pages to redux.
 - Imports are starting to look REALLY ugly. Need to figure out how to properly fix
 - Figure out what else needs to be done to publish minimally viable blog
 - - Begin working on immutable data store and associated logic with tests
