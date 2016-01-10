@@ -21,6 +21,8 @@ I will move forward with tests and dynamic behavior.
 - Nav Pages and sidebar contents should be read from markdown, same as blog posts
 - Separate tests out into smaller individual tests
 - Write tests for blogPosts component
+- Figure out testing deprecation warning. If using non-depcreated utils, I get an error. Why?
+- Is there a more 'proper' or less 'dangerous' way to read markdown into HTML in react?
 - mapStateToProps methods need to be refined.
 - Imports are starting to look REALLY ugly. Need to figure out how to properly fix
 - Figure out what else needs to be done to publish minimally viable blog
