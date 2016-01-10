@@ -2,11 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import actionCreators from '../../../../action_creators';
 import {connect} from 'react-redux';
+import marked from 'marked';
 
 export const Links = React.createClass({
+  rawMarkup: function() {
+    var rawMarkup = marked(this.props.linksContent.toString(), {sanitize: true});
+    return { __html: rawMarkup };
+  },
   render: function() {
     return(
-      <div>{this.props.linksContent}</div>
+      <div dangerouslySetInnerHTML={this.rawMarkup()} />
     );
   }
 });
