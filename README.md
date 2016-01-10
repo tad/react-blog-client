@@ -1,8 +1,8 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 26
-January 9, 2016 - Fixed linting. Renamed react components to have .jxs extensions.
+Streak Day 27
+January 10, 2016 - Changed Nav page content to be read from markdown.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
@@ -18,7 +18,8 @@ I will move forward with tests and dynamic behavior.
 - visit http://localhost:8080 in your browser
 
 ## TODO:
-- Nav Pages and sidebar contents should be read from markdown, same as blog posts
+- Sidebar contents should be read from markdown, same as blog posts
+- Refactor out common code between Nav pages - shouldn't need so much code.
 - Separate tests out into smaller individual tests
 - Write tests for blogPosts component
 - Figure out testing deprecation warning. If using non-depcreated utils, I get an error. Why?
