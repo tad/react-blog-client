@@ -1,8 +1,12 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 27
-January 10, 2016 - Changed Nav page content to be read from markdown.
+Streak Day 28
+January 11, 2016 - Split up masthead link tests and sidebar tests.
+For now, the sidebar content will continue to be jsx content. I need to decide
+exactly how I want them to work. Will defer for now.
+Realized I don't need to write tests for blogPosts components, as there's no
+real logic there...
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.
@@ -21,7 +25,6 @@ I will move forward with tests and dynamic behavior.
 - Sidebar contents should be read from markdown, same as blog posts
 - Refactor out common code between Nav pages - shouldn't need so much code.
 - Separate tests out into smaller individual tests
-- Write tests for blogPosts component
 - Figure out testing deprecation warning. If using non-depcreated utils, I get an error. Why?
 - Is there a more 'proper' or less 'dangerous' way to read markdown into HTML in react?
 - mapStateToProps methods need to be refined.
