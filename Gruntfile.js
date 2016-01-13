@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     mochaTest: {
       test: {
         options: {
-          require: 'babel-core/register'
+          require: ['babel-core/register', './test/test_helper.js']
         },
         src: ['./test/**/*.js']
       }
