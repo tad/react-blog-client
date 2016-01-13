@@ -1,25 +1,25 @@
-// import {React, renderIntoDocument, scryRenderedDOMComponentsWithTag, Simulate} from 'react-addons-test-utils';
-import React from 'react/addons';
+import React from 'react';
+import ReactTestUtils from 'react-addons-test-utils';
 import Sidebar from '../../src/app/components/blog-container/sidebar/Sidebar';
 import {expect} from 'chai';
 import ReactDOM from 'react-dom';
-import {List} from 'immutable';
 
-const {renderIntoDocument, scryRenderedDOMComponentsWithTag,
-  scryRenderedDOMComponentsWithClass, Simulate} = React.addons.TestUtils;
+const {renderIntoDocument, scryRenderedDOMComponentsWithTag, scryRenderedDOMComponentsWithClass}
+  = ReactTestUtils;
 
-  const sidebarModules = [
-    {
-      insetModule: true,
-      content:  <div><h1>Hello</h1></div>
-    },
-    {
-      insetModule: false,
-      content:  <div><h1>World</h1></div>
-    }];
+const sidebarModules = [
+  {
+    insetModule: true,
+    content:  <div><h1>Hello</h1></div>
+  },
+  {
+    insetModule: false,
+    content:  <div><h1>World</h1></div>
+  }
+];
 
-  const component = renderIntoDocument(<Sidebar sidebars={sidebarModules} />);
-  const sidebars = scryRenderedDOMComponentsWithTag(component, 'h1');
+const component = renderIntoDocument(<Sidebar sidebars={sidebarModules} />);
+const sidebars = scryRenderedDOMComponentsWithTag(component, 'h1');
 
 describe('Sidebar', () => {
   it('renders two modules in the sidebar', () => {
@@ -34,7 +34,7 @@ describe('Sidebar', () => {
   it('properly renders modules marked as inset', () => {
     const insetModule = scryRenderedDOMComponentsWithClass(component, 'sidebar-module-inset');
     expect(insetModule.length).to.equal(1);
-    expect(insetModule[0].textContent).to.equal('Hello');    
+    expect(insetModule[0].textContent).to.equal('Hello');
   });
 
 });

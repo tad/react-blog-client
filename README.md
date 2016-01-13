@@ -1,12 +1,10 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 28
-January 11, 2016 - Split up masthead link tests and sidebar tests.
-For now, the sidebar content will continue to be jsx content. I need to decide
-exactly how I want them to work. Will defer for now.
-Realized I don't need to write tests for blogPosts components, as there's no
-real logic there...
+Streak Day 29
+January 12, 2016 - Found and fixed an issue in the Gruntfile because the Grunt
+mocha tests were failing. This could possibly be due to the deprecated TestUtils
+that I'm using.
 
 Currently only generating static content while I experiment and build out the
 react components and design that I want to move forward with.

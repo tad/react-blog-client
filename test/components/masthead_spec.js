@@ -1,11 +1,11 @@
-// import {React, renderIntoDocument, scryRenderedDOMComponentsWithTag, Simulate} from 'react-addons-test-utils';
-import React from 'react/addons';
+import React from 'react';
+import ReactTestUtils from 'react-addons-test-utils';
 import Masthead from '../../src/app/components/Masthead';
 import {expect} from 'chai';
 import ReactDOM from 'react-dom';
-import {List} from 'immutable';
 
-const {renderIntoDocument, scryRenderedDOMComponentsWithTag, scryRenderedDOMComponentsWithClass, Simulate} = React.addons.TestUtils;
+const {renderIntoDocument, scryRenderedDOMComponentsWithTag, scryRenderedDOMComponentsWithClass}
+  = ReactTestUtils;
 
 const mastHeadItems = [
   {
@@ -17,9 +17,10 @@ const mastHeadItems = [
     link: '#/categories',
     title: 'Categories',
     default: false
-  }];
+  }
+];
 
-  const component = renderIntoDocument(<Masthead masthead={mastHeadItems} />);
+const component = renderIntoDocument(<Masthead masthead={mastHeadItems} />);
 
 describe('Masthead', () => {
   it('renders two items in the masthead', () => {
