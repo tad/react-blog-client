@@ -6,8 +6,7 @@ import Content from './Content';
 
 export default React.createClass({
   propTypes: {
-    // Not sure how this works with immutable - needs research
-    //blogPosts: React.PropTypes.array.isRequired,
+    blogPosts: React.PropTypes.object.isRequired,
   },
   render: function() {
     const { blogPosts } = this.props;

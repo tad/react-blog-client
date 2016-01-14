@@ -12,7 +12,9 @@ export default React.createClass({
   },
   render: function() {
     return(
-      <div dangerouslySetInnerHTML={this.rawMarkup()} />
+      <div className="blog-post-content">
+        <div dangerouslySetInnerHTML={this.rawMarkup()} />
+      </div>
     );
   }
 });
