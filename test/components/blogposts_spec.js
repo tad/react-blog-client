@@ -41,10 +41,7 @@ describe('BlogPosts', () => {
     const metas = scryRenderedDOMComponentsWithClass(component, 'blog-post-meta');
     const contents = scryRenderedDOMComponentsWithClass(component, 'blog-post-content');
 
-    console.log(metas[0]);
-
     expect(titles[0].textContent).to.equal('Sample blog post\n');
-    // expect(metas[0].textContent).to.equal('Some meta\n'); NOT SURE WHY THIS IS BROKEN. WILL FIGURE IT OUT
     expect(contents[0].textContent).to.equal('Hello\n');
   });
 
