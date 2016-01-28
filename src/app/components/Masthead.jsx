@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MastheadItem from './MastheadItem';
 
 export default React.createClass({
   propTypes: {
@@ -10,9 +11,7 @@ export default React.createClass({
     return(
       <nav className="blog-nav">
         {masthead.map((item, index) => (
-          <a  className={item.default? "blog-nav-item active" : "blog-nav-item"}
-              key={index} href={item.link}>{item.title}
-          </a>
+          <MastheadItem item={item} key={index} />
         ))}
       </nav>
     );
