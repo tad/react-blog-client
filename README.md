@@ -1,10 +1,8 @@
 ## React-based blogging client
 
 ## Notes:
-Streak Day 30!! /CELEBRATE
-January 13, 2016
-- Added tests for BlogPosts component
-- Now that I'm 30 days into this, it's time to figure out how to begin publishing. I don't have any publishing functionality built in yet, but that doesn't mean that I can't go live while I work on that. I just need to decide *how* I'm going to do things starting off.
+January 28, 2016
+- Awesome stuff tonight! I introduced Rx and used an Observable to track clicks of navbar items so that I can change the current 'active' class of that item to get the proper carat indicator when clicked. It works like a charm! :)
 - I'm also running up against the wall of my (limited) knowledge of react and redux. I will be doing intensive studying on the subjects in the weeks ahead.
 
 Currently only generating static content while I experiment and build out the
